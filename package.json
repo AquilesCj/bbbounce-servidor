@@ -1,0 +1,10 @@
+{
+  "name": "bbbounce-servidor-ws",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor de partidas em tempo real do B.B. Bounce (WebSocket). Só retransmite posições e eventos entre os jogadores da mesma sala.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "teste": "node teste_servidor.js" },
+  "dependencies": { "ws": "^8.18.0" },
+  "engines": { "node": ">=18" }
+}
